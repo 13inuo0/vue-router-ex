@@ -4,6 +4,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeVue from "@/views/Home.vue";
 import AboutVue from "@/views/About.vue";
 import Login from "@/views/Login.vue";
+import Signup from "@/views/Signup.vue";
 // 페이지 주소와 연결
 const routes = [
   {
@@ -16,6 +17,10 @@ const routes = [
   },
   {path: "/login",
     component: Login,
+  },
+  {
+    path: "/signup",
+    component: Signup,
   }
 ];
 // 라우터 생성

@@ -10,6 +10,7 @@
       <router-link to="/">홈</router-link>
       <router-link to="/about">소개</router-link>
       <router-link to="/login">로그인</router-link>
+      <router-link to="/signup">회원가입</router-link>
      </nav>
      <!-- 홈페이지 보여주는 곳 -->
       <RouterView></RouterView>
